@@ -18,4 +18,5 @@ readRenviron("~/.Renviron")
 
 ## Templates in repository
 1. search_acs_variables: using Tidycensus functions to review the different ACS variables by keywords and/or table code.
-2. grab_acs_variables: Export a wide-format table of multiple requested variables and aggregate a specific area (multiple geographic units) into one.
+2. grab_acs_variables: Export a wide-format table of multiple requested variables
+3. aggregate_area: grab variables AND aggregate a specific area (multiple geographic units) into one
