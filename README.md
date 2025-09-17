@@ -1,7 +1,11 @@
-# github-templates
+# Data Templates
+
+missing text
+
+## Tidycensus
 This repository contains R query templates for using the Tidycensus package in DVRPC. It focuses solely on ACS queries. 
 
-## API key
+### API key
 Before starting to work with Tidycensus, users need to request and receive an API code. [Request a free API key here.](https://api.census.gov/data/key_signup.html)
 
 After receiving the unique key in an email, run this code
