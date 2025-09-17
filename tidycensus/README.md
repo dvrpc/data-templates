@@ -13,10 +13,10 @@ census_api_key("YOUR_KEY_HERE", install = TRUE) #only need to install once
 readRenviron("~/.Renviron")
 ```
 
-Note
-You only need to install the API key once, not every time you work with tidycensus.
+> [!NOTE]
+> You only need to install the API key once, not every time you work with tidycensus.
 
 ### Templates in repository
-1. search_acs_variables: using Tidycensus functions to review the different ACS variables by keywords and/or table code.
-2. grab_acs_variables: Export a wide-format table of multiple requested variables
-3. aggregate_area: grab variables AND aggregate a specific area (multiple geographic units) into one
+1. search-acs-variables: using Tidycensus functions to review the different ACS variables by keywords and/or table code
+2. get-acs-variables-for-dvrpc-region: Export a wide-format table of multiple requested variables for the entire DVRPC region
+3. aggregate-an-area: grab variables AND aggregate a specific area (multiple geographic units) into one
