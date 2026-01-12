@@ -20,3 +20,4 @@ readRenviron("~/.Renviron")
 1. search-acs-variables: using Tidycensus functions to review the different ACS variables by keywords and/or table code
 2. get-acs-variables-for-dvrpc-region: Export a wide-format table of multiple requested variables for the entire DVRPC region
 3. aggregate-an-area: grab variables AND aggregate a specific area (multiple geographic units) into one
+4. by-muni: get variables for municipality (county subdivision) level for either one municipality or combined municipalities (by unique geoid code). 
